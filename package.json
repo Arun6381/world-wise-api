@@ -1,9 +1,9 @@
 {
   "name": "world-wise-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "A brief description of your project",
   "main": "index.js",
- "scripts": {
+  "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,8 +11,8 @@
     "type": "git",
     "url": "git+https://github.com/Arun6381/world-wise-api.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["api", "json-server", "world-wise"],
+  "author": "Your Name",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Arun6381/world-wise-api/issues"
@@ -20,8 +20,6 @@
   "homepage": "https://github.com/Arun6381/world-wise-api#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "json": "^11.0.0",
-    "json-serve": "^0.1.0",
-    "server": "^1.0.39"
+    "json-server": "^0.17.3"
   }
 }
